@@ -1,0 +1,30 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#container {
+	margin: auto;
+	width: 950px;
+}
+h1 {
+	text-align: center;
+	text-transform: lowercase;
+}
+#social-media {
+	
+}
+	#social-media .social-medium {
+		float: left;
+		text-align: center;
+		width: 20%;
+	}
+		#social-media .social-medium img {
+			height: 150px;
+			width: 150px;
+		}
+
+a img {
+	border: none;
+}
