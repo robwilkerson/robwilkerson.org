@@ -1,19 +1,29 @@
 html, body {
+	display: block;
 	height: 100%;
 	margin: 0;
+	overflow: auto;
 	padding: 0;
 	width: 100%;
 }
 #container {
+	height: 100%;
 	margin: auto;
+	overflow: auto;
+	position: relative;
 	width: 950px;
 }
 h1 {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	letter-spacing: .1em;
 	text-align: center;
 	text-transform: lowercase;
 }
 #social-media {
-	
+	margin-top: -75px;
+	position: absolute;
+	top: 50%;
+	width: 100%;
 }
 	#social-media .social-medium {
 		float: left;
@@ -27,4 +37,9 @@ h1 {
 
 a img {
 	border: none;
+}
+
+.clear {
+	overflow: auto;
+	width: 100%;
 }
