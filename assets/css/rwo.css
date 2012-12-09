@@ -8,54 +8,13 @@ html, body {
 }
 #container {
 	height: 100%;
-	margin: auto;
-	overflow: auto;
-	position: relative;
-	width: 950px;
-}
-h1 {
-	font-family: Helvetica, Verdana, Arial, sans-serif;
-	letter-spacing: .15em;
-	text-align: center;
-	text-transform: lowercase;
-}
-#social-media {
-	margin-top: -75px;
-	overflow: visible;
-	position: absolute;
-	top: 50%;
+	margin: 0;
+	padding: 0;
 	width: 100%;
 }
-	#social-media .social-medium {
-		float: left;
-		text-align: center;
-		width: 20%;
-	
-	
-		-webkit-perspective: 1000;
-	}
-		#social-media .social-medium a img {
-			height: 150px;
-			opacity: 0.75;
-			width: 150px;
-			
-			.-moz-transition: all .2s linear;
-			-o-transition: all .2s linear;
-			-webkit-transition: all .2s linear;
-		}
-		#social-media .social-medium a:hover img {
-			opacity: 1.0;
-			
-			.-moz-transform: scale(1.1);
-			-o-transform: scale(1.1);
-			-webkit-transform: scale(1.1);
-		}
-
-a img {
-	border: none;
-}
-
-.clear {
-	overflow: auto;
+#container iframe {
+	height: 100%;
+	margin: 0;
+	padding: 0;
 	width: 100%;
 }
